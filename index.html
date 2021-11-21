@@ -18,18 +18,50 @@
     }
     .head1{color:rgb(252, 251, 246);
         font-family: Giddyup Std;
-        text-align:center;
+        text-align:left;
         font-style:italic;
         background-color:rgb(145, 79, 175);
         font-size:40px;
+        padding: 0;
+       
     }
+    .navbar{
+        padding:0;
+        background-color: rgb(145, 79, 175);
+     }
+     .navbar ul{
+        list-style-type:none;
+         overflow: auto;
+         font-size: 20px;
+     }
+      li a{
+        text-decoration:none;
+        display:ruby;
+        color:rgb(252, 251, 246);
+        float:left; 
+        padding:20px;
+      }
+      li a:hover{
+          background-color: black;
+          color:rgb(228, 231, 6);
+      }
     </style>
     
 </head>
 <body style="background-color: rgb(218, 209, 236)">
 
  <!-- <h1 style="color:rgb(252, 251, 246); font-family: 'PT Serif', serif; text-align:left; background-color:rgb(145, 79, 175);">bag4u</h1>-->
-    <h1 class="head1">bag4u<button style="text-align:right;"><b>Login</b></button></h1>
+    <div class="navbar">
+    <ul>
+        <!--<h1 class="head1">bag4u</h1>-->
+        <li style="float:left" class="head1">bag4u</li>
+        <li><a href="">Location</a></li>
+        <li><a href="">Search for Product/Store</a></li>
+        <li><a href="">LogIn</a></li>
+        <li><a href="">Help</a></li>
+        <li><img src="Assets/Media/Image/bag.jfif" margin-top:2%; height="2%"; width="2%"></li>
+    </ul>
+    </div>
     
     <!--Image Inserting-->
     <table>
